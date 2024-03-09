@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="workout"><span class="white-work">Work</span><span class="pink-out"> out</span></div>
+                <span class="down-span">Believe in yourself</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <!-- Перші 4 елементи будуть видимі на маленьких екранах -->
+                        <li class="nav-item d-lg-none">
+                            <a class="nav-link" aria-current="page" href="#">Exercices</a>
+                        </li>
+                        <li class="nav-item d-lg-none">
+                            <a class="nav-link" href="#">Community</a>
+                        </li>
+
+                        <li class="nav-item d-lg-none">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+
+                        <li class="nav-item  d-lg-none ">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <!-- Елементи Dropdown і Link будуть видимі на більших екранах -->
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link" href="#">Latest training</a>
+                        </li>
+
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link" href="#">Our team</a>
+                        </li>
+
+                        <li class="nav-item d-none d-md-block">
+                            <a class="nav-link" href="#">Discover</a>
+                        </li>
+
+
+                        <li class="login">
+                            <a href="#" class="pink-login" type="button">LOGIN</a>
+                            <a href="#" class="white-sign" type="button">SIGN IN</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+</header>
+
+
+<main>
+
+    <section class="first-section">
+
+        <div class="container d-flex ">
+            <div class="row">
+                <div class="col-xxl-5 col-xxl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+                    <div class="left-content">
+
+                        <div class="display-none-img">
+                            <img src="img/al-displ-none.png" class="img-right-cont"
+                                 alt="">
+                        </div> <!-----Для мобільної версії----->
+
+
+                        <h1>4 Week</h1>
+                        <h3>Workout plan</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Maecenas fringilla, lacus eget consequat tincidunt, lectus ex bibendum libero,
+                            eget iaculis quam arcu quis mauris. Donec ex neque, egestas in faucibus.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                        </p>
+                        <div class="btn-first-section">
+                            <a href="#" class="btn-1">Try for free</a>
+                            <a href="#" class="btn-2">Try for free</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-7 col-xxl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+                    <div class="right-content d-flex">
+                        <div class="row">
+                            <div class="col-xxl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="img-right-content">
+                                    <img src="img/alexander-jawfox-Kl2t5U6Gkm0-unsplash%201.png" class="img-right-cont"
+                                         alt="">
+                                </div>
+                                <!--- Не розумію як підігнати картинку під розмір контейнеру,пробував height:mac-content--->
+                            </div>
+                            <div class="col-xxl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                <div class="right-content">
+                                    <div class="right-content-box">
+                                        <h1>Get inspired</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringil.
+                                            lacus
+                                            eget
+                                            consequat tincidunt, lectus ex.</p>
+                                        <a href="#" class="btn">
+                                            <img src="img/Group%203.png" alt="">
+                                            Explore More
+                                        </a>
+                                    </div>
+
+                                    <div class="right-content-box">
+                                        <h1>Get inspired</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringil.
+                                            lacus
+                                            eget
+                                            consequat tincidunt, lectus ex.</p>
+                                        <a href="#" class="btn">
+                                            <img src="img/Group%203.png" alt="">
+                                            Explore More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="second-section">
+
+        <div class="container">
+
+            <div class="tittle-second-section">
+                <h3 class="h-3-second-tittle">Latest Training</h3>
+                <p class="p-second-tittle">See more here</p>
+            </div>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/harold-wainwright-AynRO6-OtCc-unsplash%201.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Running</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                fringilla, lacus eget consequat </p>
+                            <a href="#" class="btn btn-primary">See more</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/cathy-pham-3jAN9InapQI-unsplash%201.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lifting</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                fringilla, lacus eget consequat </p>
+                            <a href="#" class="btn btn-primary">See more</a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/bruce-mars-gJtDg6WfMlQ-unsplash%201.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Yoga</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                fringilla, lacus eget consequat </p>
+                            <a href="#" class="btn btn-primary">See more</a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="our-team">
+
+        <div class="container">
+            <div class="h-3-team-tittle">
+                <h3>Our team</h3>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/strong%201.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-h1">Jamies Ford</h1>
+                            <h5 class="card-title">Trainer</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                fringilla, lacus eget consequat </p>
+                            <div class="a-our-team-btn">
+                                <a href="#" class="btn btn-primary">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/damir-spanic-BzJO7pO1K3g-unsplash%202.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-h1">Eddie Smith</h1>
+                            <h5 class="card-title">Trainer</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                fringilla, lacus eget consequat </p>
+                            <div class="a-our-team-btn">
+                                <a href="#" class="btn btn-primary">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/samuel-girven-RrCvrrYtlqQ-unsplash%201.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-h1">Annie Summer</h1>
+                            <h5 class="card-title">Trainer</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                fringilla, lacus eget consequat </p>
+                            <div class="a-our-team-btn">
+                                <a href="#" class="btn btn-primary">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/emily-sea-coiWR0gT8Cw-unsplash%201.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-h1">Emily Sea</h1>
+                            <h5 class="card-title">Trainer</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                                fringilla, lacus eget consequat </p>
+                            <div class="a-our-team-btn">
+                                <a href="#" class="btn btn-primary">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="our-team-d-none">
+                    <div class="img-none-block"><img src="img/strong%2012.png" alt=""><span>Jamies Ford</span></div>
+                    <div class="img-none-block"><img src="img/strong%202.png" alt=""><span>Jamies Ford</span></div>
+                    <div class="img-none-block"><img src="img/strong%203.png" alt=""><span>Jamies Ford</span></div>
+                    <div class="img-none-block"><img src="img/strong%204.png" alt=""><span>Jamies Ford</span></div>
+                </div><!---Для моб версії--->
+                <a href="#" class="btn btn-primary none-d-btm">See more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="some-info">
+        <div class="container">
+            <div class="some-info-block">
+                <h2>DISCOVER YOUR POTENCIAL</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum. text of the printing and typesetting
+                </p>
+                <div class="btn-box">
+                    <button class="btn-view">VIEW PLANS</button>
+                    <button class="btn-learn">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<footer>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xxl-4 col-xxl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+
+                <div class="right-up-foot">
+                    <a class="navbar-brand" href="#">
+                        <div class="workout"><span class="white-work">Work</span><span class="pink-out"> out</span>
+                        </div>
+                        <span class="down-span">Believe in yourself</span>
+                    </a>
+
+                    <p class="footer-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum.</p>
+
+                    <div class="massage-icon">
+                        <a href="#"><img src="img/Asset%202.png" alt=""></a>
+                        <a href="#"><img src="img/Asset%203.png" alt=""></a>
+                        <a href="#"><img src="img/Asset%204.png" alt=""></a>
+                        <a href="#"><img src="img/Asset%206.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xxl-4 col-xxl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="ul-list">
+                    <ul class="info-foot">
+                        <h3>Info</h3>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Product Updates</a></li>
+                    </ul>
+
+
+                    <ul class="info-foot">
+                        <h3>Get in Touch</h3>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Contact us</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-xxl-4 col-xxl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+
+                <div class="form-sub">
+                    <form class="footer_form" action="/subscribe" method="post">
+
+                        <label class="footer-form-label"><h1>subscribe to our newsletter</h1>
+                            <input class="footer-form-input" type="text" placeholder="Type Your Email Here"
+                                   name="email"/>
+                        </label>
+
+                        <button class="footer-form-btn" type="submit">
+                            subscribe
+                        </button>
+                        <!---Ця кнопка в мене розташована по правій стороні, а не під формою, не розумію як виправити--->
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="left-down-foot">
+                        <p class="footer-copyright-text">
+                            Copyright &#169; 2021 Enisson Lemos | All right reserved
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xxl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="right-down-foot">
+                        <a class="footer-copyright-terms" href="#" target="_blank">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>

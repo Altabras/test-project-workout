@@ -1,0 +1,765 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    min-width: 320px;
+    font-family: "Poppins", sans-serif;
+    background: #1F1C26;
+    color: #F2F2F2;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #F2F2F2;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+
+}
+
+
+
+/*--------------------------------------HEADER--------------------------------------------------*/
+
+header{
+    margin-top: 65px;
+}
+
+.nav-link{
+    color: #F2F2F2;
+
+}
+
+.offcanvas {
+
+
+    height: 250px;
+
+
+    border-radius: 20px 0px 0px 20px;
+    background: #59253E;
+
+    color: #F2F2F2;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #F2F2F2;
+}
+
+.navbar-brand{
+    width: 237px;
+    height: 122px;
+    color: #F2F2F2;
+    border: 2px solid #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 34px 28px 34px;
+}
+
+.pink-out{
+    color: #F24B88;
+
+}
+.workout{
+    display: flex;
+    color: #F2F2F2;
+    font-family: Poppins;
+    font-size: 36px;
+
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+
+.down-span{
+    color: #F2F2F2;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.pink-login{
+    background: #F24B88;
+    width: 57px;
+    height: 21px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.white-sign{
+    background: #1F1C26;
+    border: 1px solid #F2F2F2;
+    width: 57px;
+    height: 21px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 66px;
+}
+
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+    color: #fff; /* ДОРОБИТИ !!!!! */
+}
+
+.navbar-toggler-icon {
+
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
+
+/*-----------------------FIRST SECTION-LEFT-------------------------*/
+.display-none-img{
+    display: none;
+}
+
+.first-section{
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.left-content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 13.7px;
+    text-transform: uppercase;
+}
+
+.left-content h3{
+    font-size: 29px;
+    font-weight: 500;
+    letter-spacing: 6.23px;
+    text-transform: uppercase;
+    margin-top: -25px;
+}
+
+.left-content p {
+    color: rgba(255, 255, 255, 0.36);
+    width: 75%;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 65px;
+    padding-bottom: 90px;
+
+}
+
+
+.btn-first-section{
+    display: flex;
+    gap: 50px;
+}
+
+.btn-first-section .btn-1{
+    width: max-content;
+    display: flex;
+    border-radius: 10px;
+    background: #F24B88;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    text-transform: uppercase;
+
+}
+
+.btn-first-section .btn-2{
+    width: max-content;
+    display: flex;
+    border-radius: 10px;
+    background: #EC3779;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    text-transform: uppercase;
+}
+
+
+
+/*-----------------------FIRST SECTION-RIGHT-------------------------*/
+
+
+
+.right-content-box {
+    border-radius: 10px;
+    background: #332F3C;
+   padding: 30px 26px 25px 25px;
+    margin-bottom: 20px;
+
+
+}
+
+.right-content h1{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.right-content p{
+    color: rgba(255, 255, 255, 0.36);
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+}
+.right-content a{
+    color: #F2F2F2;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.img-right-content{
+
+}
+
+.img-right-content img{
+    border-radius: 5%;
+}
+
+
+/*-----------------------SECOND-SECTION-------------------------*/
+
+.second-section{
+    margin-bottom: 150px;
+
+}
+.tittle-second-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.h-3-second-tittle {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 5px solid #59253E; /*ДОРОБИТИ !!!!!!!!!!!!*/
+
+}
+
+.p-second-tittle {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.second-section .card {
+    background: #1F1C26;
+    color: #F2F2F2;
+    border: none;
+    border-radius:20px;
+
+}
+
+.second-section .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.second-section .card-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.36);
+    width:368px;
+    height: 34.397px;
+    flex-shrink: 0;
+}
+
+.second-section .card-body .btn {
+    background: #F24B88;
+    border-radius: 5px;
+    width: 98px;
+    height: 35.379px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+.second-section .card-body .btn:hover{
+
+} /*ДОРОБИТИ!!!!*/
+
+.second-section .card-body {
+    margin-left: -15px;
+}
+
+/*----------------------------OUR TEAM SECTION---------------------*/
+
+.our-team .card {
+    border-radius: 0;
+    border: none;
+    margin-top: 102px;
+    display: flex;
+
+}
+
+.our-team .card-img-top {
+    border-radius: 0;
+}
+
+.h-3-team-tittle {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 5px solid #59253E; /*ДОРОБИТИ !!!!!!!!!!!!*/
+    width: 150px;
+    display: flex;
+
+
+}
+
+.our-team .card-h1 {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.our-team .card-title {
+    font-size: 13px;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: capitalize;
+    margin-top: -8px;
+
+}
+.our-team .card-text {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(13, 13, 13, 0.36);
+    width: 237px;
+    text-align: center;
+    margin-left: 18px;
+    margin-bottom:57px;
+
+}
+
+.our-team .btn {
+    border-radius: 5px;
+    background: #F24B88;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
+
+    width: max-content;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+
+}
+
+.a-our-team-btn{
+    display: flex;
+    justify-content: end;
+}
+.our-team-d-none {
+    display: none;
+}
+
+.none-d-btm{
+    display: none;
+}
+
+
+
+
+
+/*---------------------------SOME INFO SECTION--------------------------*/
+
+.some-info {
+
+    margin-top: 150px;
+}
+
+.some-info-block {
+    background-color: #332f3c;
+    padding: 66px 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.some-info-block h2 {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 0.21em;
+}
+.some-info-block p {
+    font-size: 13px;
+    max-width: 664px;
+    text-align: center;
+    line-height: 21px;
+    margin-bottom: 68px;
+}
+.btn-box {
+    display: flex;
+    gap: 30px;
+}
+.btn-view,
+.btn-learn {
+    padding: 20px 38px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    min-width: 200px;
+    min-height: 70px;
+    transition: all 0.4s;
+}
+.btn-view {
+    background-color: #f24b88;
+    border: 1px solid #f24b88;
+
+}
+.btn-learn {
+    background-color: #1f1c26;
+    border: 1px solid #1f1c26;
+}
+
+
+/*---------------------------FOOTER--------------------------*/
+
+footer {
+    margin-top: 94px;
+}
+
+.right-up-foot {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+
+
+footer .container {
+    border-bottom: 1px solid #F2F2F2;
+    border-top:1px solid #F2F2F2;
+}
+
+footer .row{
+    padding-top: 36px;
+    padding-bottom: 15px;
+}
+
+
+.form-sub {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+
+
+
+
+.footer-form-label h1{
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: start;
+
+}
+
+.footer-form-input{
+    width: max-content;
+    padding: 8px 100px 8px 50px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 20px 0 20px 0;
+
+}
+
+.footer-form-btn {
+    border-radius: 5px;
+    background: #F24B88;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+
+    padding: 8px 3px 8px 3px;
+    font-size: 14px;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+}
+
+
+
+.footer-p {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 15px 0 15px 0;
+}
+
+.ul-list{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-foot h3{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.info-foot li {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding:10px 0 10px 0;
+}
+
+footer .container{
+
+    border-bottom: none;
+
+}
+
+.right-down-foot{
+    text-align: end;
+}
+
+
+
+
+@media only screen and (max-width: 796px) {
+    .navbar-brand {
+        width: 107px;
+        height: 55px;
+        padding: 12px 8px;
+    }
+
+    .workout {
+        font-size: 18px;
+    }
+
+    .down-span {
+        font-size: 6px;
+        line-height: 12px;
+        font-weight: 200;
+    }
+
+    .img-right-content img {
+        display: none;
+    }
+
+    .display-none-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .display-none-img img {
+        border-radius: 15px;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .left-content h1 {
+        font-size: 26px;
+        text-align: center;
+        letter-spacing: 5.6px;
+        margin-top: 100px;
+    }
+
+    .left-content h3 {
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 2.5px;
+    }
+
+    .left-content p {
+        font-size: 12px;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+
+
+    .btn-first-section {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .btn-first-section .btn-1 {
+        font-size: 13px;
+        padding: 11px;
+    }
+
+    .btn-first-section .btn-2 {
+        display: none;
+    }
+
+    .left-content h3 {
+        font-size: 12px;
+        letter-spacing: 2.5px;
+        margin-top: 0;
+    }
+
+
+    .right-content {
+        display: none;
+    }
+
+
+    .p-second-tittle {
+        display: none;
+    }
+
+    .tittle-second-section {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: -150px;
+    }
+
+    .second-section .card-text {
+        display: none;
+    }
+
+    .second-section .btn-primary {
+        display: none;
+    }
+
+    .second-section .card-img-top {
+        position: relative;
+        border-radius: 20px;
+    }
+
+    .second-section .card-title {
+        position: absolute;
+        margin-top: -45px;
+        margin-left: 10px;
+    }
+
+    /*Не знаю як додати кнопку, пробував в html зробити кнопку з display none, в media screen display flex, але не
+    відобразилася*/
+    .h-3-team-tittle {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    /*Чомумсь заголовок не зміщується по центру*/
+    .our-team .card {
+        display: none;
+    }
+
+    .our-team-d-none {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+
+    .img-none-block img {
+        border-radius: 20px;
+
+    }
+
+    .img-none-block {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .img-none-block span {
+        text-align: center;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .none-d-btm {
+        display: flex;
+        margin-left: 40%;
+        margin-top: 30px;
+    }
+
+.some-info-block h2 {
+    font-size: 24px;
+    letter-spacing: 5.16px;
+    text-align: center;
+    width:336px;
+
+
+}
+
+    .some-info-block p {
+        width: 336px;
+        font-size: 12px;
+    }
+
+    .btn-view,
+    .btn-learn {
+        padding: 13px 9px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 10px;
+        margin-top: 50px;
+        transition: all 0.4s;
+    }
+}
+
+/*Футер не лізе в голову як зробити, бо ліва частина де лого, якщо ставлю в центру в моб.версії - то у в декстопі лізе в цертр*/
+
+
+
