@@ -21,62 +21,65 @@
 
 <header>
 
+    <div class="header-top">
+        <div class="container ">
 
-    <nav class="navbar navbar-expand-md navbar-dark ">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <div class="workout"><span class="white-work">Work</span><span class="pink-out"> out</span></div>
-                <span class="down-span">Believe in yourself</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
-                 aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <!-- Перші 4 елементи будуть видимі на маленьких екранах -->
-                        <li class="nav-item d-lg-none">
-                            <a class="nav-link" aria-current="page" href="#">Exercices</a>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="header-logo">
+                        <a href="#">
+                            <h1>Work<span>out</span></h1>
+                            <h5>Believe in yourself</h5>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="burger-menu">
+                            <div class="burger-line"></div>
+                            <div class="burger-line"></div>
+                            <div class="burger-line"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-burg">
+                    <div class="menu_overlay"></div>
+                    <ul class="menu__list">
+                        <li class="menu_item"><a href="#">EXERCICES</a></li>
+                        <li class="menu_item"><a href="#">COMMUNITY</a></li>
+                        <li class="menu_item"><a href="#">PRICING</a></li>
+                        <li class="menu_item"><a href="#">ABOUT US</a></li>
+                        <li class="menu_item">
+                            <div class="authorization">
+                                <a href="#" class="autho-btn-1" type="btn">Login</a>
+                                <a href="#" class="autho-btn-2" type="btn">Sign in</a>
+                            </div>
                         </li>
-                        <li class="nav-item d-lg-none">
-                            <a class="nav-link" href="#">Community</a>
-                        </li>
-
-                        <li class="nav-item d-lg-none">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-
-                        <li class="nav-item  d-lg-none ">
-                            <a class="nav-link" href="#">About us</a>
-                        </li>
-                        <!-- Елементи Dropdown і Link будуть видимі на більших екранах -->
-                        <li class="nav-item d-none d-md-block">
-                            <a class="nav-link" href="#">Latest training</a>
-                        </li>
-
-                        <li class="nav-item d-none d-md-block">
-                            <a class="nav-link" href="#">Our team</a>
-                        </li>
-
-                        <li class="nav-item d-none d-md-block">
-                            <a class="nav-link" href="#">Discover</a>
-                        </li>
-
-
-                        <li class="login">
-                            <a href="#" class="pink-login" type="button">LOGIN</a>
-                            <a href="#" class="white-sign" type="button">SIGN IN</a>
-                        </li>
-
-
                     </ul>
                 </div>
-            </div>
-        </div>
-    </nav>
 
+                <div class="col-md-9">
+                    <div class="nav-menu">
+                        <div class="nav-header d-flex">
+                            <a href="#" class="line-pink">Latest training</a>
+                            <a href="#">Our team</a>
+                            <a href="#">Discover</a>
+                        </div>
+
+                        <div class="authorization">
+                            <a href="#" class="autho-btn-1" type="btn">Login</a>
+                            <a href="#" class="autho-btn-2" type="btn">Sign in</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
 
 </header>
 
@@ -282,9 +285,8 @@
                         </div>
                     </div>
                 </div>
-                
-                
-                
+
+
                 <div class="our-team-d-none">
                     <div class="img-none-block"><img src="img/strong%2012.png" alt=""><span>Jamies Ford</span></div>
                     <div class="img-none-block"><img src="img/strong%202.png" alt=""><span>Jamies Ford</span></div>
@@ -326,9 +328,12 @@
 
                 <div class="right-up-foot">
                     <a class="navbar-brand" href="#">
-                        <div class="workout"><span class="white-work">Work</span><span class="pink-out"> out</span>
+                        <div class="header-logo">
+                            <a href="#">
+                                <h1>Work<span>out</span></h1>
+                                <h5>Believe in yourself</h5>
+                            </a>
                         </div>
-                        <span class="down-span">Believe in yourself</span>
                     </a>
 
                     <p class="footer-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -407,6 +412,8 @@
     </div>
 </footer>
 
+
+<script src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

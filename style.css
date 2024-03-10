@@ -24,121 +24,123 @@ a:hover{
 
 }
 
-
+.menu-burg{
+    display: none;
+}
 
 /*--------------------------------------HEADER--------------------------------------------------*/
 
-header{
+.header-top{
     margin-top: 65px;
-}
-
-.nav-link{
-    color: #F2F2F2;
+    margin-bottom: 61px;
 
 }
 
-.offcanvas {
 
 
-    height: 250px;
 
-
-    border-radius: 20px 0px 0px 20px;
-    background: #59253E;
-
-    color: #F2F2F2;
-}
-
-.navbar-nav .nav-link:hover{
-    color: #F2F2F2;
-}
-
-.navbar-brand{
-    width: 237px;
-    height: 122px;
-    color: #F2F2F2;
-    border: 2px solid #F2F2F2;
+.header-logo{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-
-    padding: 34px 28px 34px;
-}
-
-.pink-out{
-    color: #F24B88;
-
-}
-.workout{
-    display: flex;
-    color: #F2F2F2;
-    font-family: Poppins;
-    font-size: 36px;
-
-    font-weight: 700;
-    line-height: normal;
-
-
-}
-
-.down-span{
-    color: #F2F2F2;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin-top: -5px;
-}
-
-.login{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    font-weight: 400;
-}
-.pink-login{
-    background: #F24B88;
-    width: 57px;
-    height: 21px;
-    flex-shrink: 0;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.white-sign{
-    background: #1F1C26;
     border: 1px solid #F2F2F2;
-    width: 57px;
-    height: 21px;
-    flex-shrink: 0;
-    justify-content: center;
     align-items: center;
+    padding: 30px 24px;
+    width: max-content;
+
+}
+
+.header-logo span{
+    color: #f24b88;
+}
+
+.header-logo h5{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3.01px;
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+
+.header-logo h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-menu{
     display: flex;
+    justify-content: end;
+    padding-top:  50px;
+
+
 }
 
-.nav-item {
-    margin-right: 66px;
+.nav-header{
+    display: flex;
+    width: max-content;
 }
 
-.navbar-nav .nav-link:focus,
-.navbar-nav .nav-link:hover {
-    color: #fff; /* ДОРОБИТИ !!!!! */
-}
-
-.navbar-toggler-icon {
-
-
-    width: 2.5rem;
-    height: 2.5rem;
+.nav-header a {
+    margin-right: 64px;
+    font-size: 14px;
+    font-weight: 400;
+    width: max-content;
 
 }
+
+
+
+.authorization{
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+
+}
+
+.autho-btn-1{
+    background: #f24b88;
+    padding: 0 5px;
+    width: max-content;
+}
+
+.autho-btn-2 {
+    border: 1px solid #F2F2F2;
+    padding: 0 5px;
+    width: max-content;
+}
+
+.line-pink {
+    position: relative;
+}
+
+.line-pink::after{
+    content: '';
+    display: inline-block;
+    width: 10%;
+    height: 5px;
+    background: #59253E;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    opacity: 0;
+}
+
+.line-pink:hover::after{
+    opacity: 1;
+    transition: 1s ease;
+    width: 100%;
+}
+
+.burger-btn{
+  display: none;
+}
+
+.burger-line{
+    display: none;
+}
+
 
 /*-----------------------FIRST SECTION-LEFT-------------------------*/
 .display-none-img{
@@ -185,6 +187,7 @@ header{
 .btn-first-section{
     display: flex;
     gap: 50px;
+
 }
 
 .btn-first-section .btn-1{
@@ -343,6 +346,7 @@ header{
     border-bottom: 5px solid #59253E; /*ДОРОБИТИ !!!!!!!!!!!!*/
     width: 150px;
     display: flex;
+
 
 
 }
@@ -518,6 +522,8 @@ footer .row{
     background: #F24B88;
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.25);
     color: #FFF;
+    margin-left: 10px;
+    margin-right: 240px;
 
     padding: 8px 3px 8px 3px;
     font-size: 14px;
@@ -569,15 +575,9 @@ footer .container{
 
 
 @media only screen and (max-width: 796px) {
-    .navbar-brand {
-        width: 107px;
-        height: 55px;
-        padding: 12px 8px;
-    }
 
-    .workout {
-        font-size: 18px;
-    }
+
+
 
     .down-span {
         font-size: 6px;
@@ -757,7 +757,111 @@ footer .container{
         margin-top: 50px;
         transition: all 0.4s;
     }
+
+    .right-up-foot{
+
+        align-items: center;
+
+        margin-bottom: 30px;
+    }
+
+
+
+
+    .right-up-foot .footer-p{
+        width: 50%;
+    }
+
+    .left-down-foot, .right-down-foot{
+        font-size: 10px;
+    }
+
+    .right-down-foot{
+        margin-top: -33px;
+    }
+
+
+
+    .burger-menu{
+        cursor: pointer;
+
+
+    }
+
+    .burger-line {
+        display: flex;
+        width: 30px;
+        height: 3px;
+        background: #F2F2F2;
+        margin: 6px 0;
+        flex-direction: column;
+    }
+
+
+
+
+    .header-top .col-md-3{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .menu-burg{
+        display: flex;
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left:60%;
+
+        margin-top: 30px;
+
+
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .menu-burg.active{
+        height: auto;
+        border-radius: 20px 0px 0px 20px;
+        background: #59253E;
+        box-shadow: -8px 8px 5px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .menu-burg ul{
+        display: block;
+
+        margin-top:20px;
+
+        transition: 0.5s;
+        opacity: 0;
+        list-style-type: none;
+    }
+
+    .menu-burg.active ul{
+
+        opacity: 1;
+
+    }
+
+    .menu-burg.active {
+        opacity: 1;
+        margin: 5px;
+    }
+
+
+
 }
+
+
+
+
+
+
+
+
 
 /*Футер не лізе в голову як зробити, бо ліва частина де лого, якщо ставлю в центру в моб.версії - то у в декстопі лізе в цертр*/
 
