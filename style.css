@@ -153,6 +153,12 @@ a:hover {
     display: none;
 }
 
+.menu-burg .menu_list  a:hover {
+    background: #332f3c;
+    border: 1px solid #F2F2F2;
+    font-size: 14px;
+}
+
 
 /*-----------------------FIRST SECTION-LEFT-------------------------*/
 .display-none-img {
@@ -895,16 +901,13 @@ footer .container {
         height: 0;
         position: absolute;
         right: 0;
-
-        margin-top: 30px;
-
-
+        margin-top: 60px;
         transition: 1s;
         overflow: hidden;
     }
 
     .menu-burg {
-        height: auto;
+        height: 40%;
         width: auto;
         border-radius: 20px 0px 0px 20px;
         background: #59253E;
@@ -914,9 +917,6 @@ footer .container {
 
     .menu-burg ul {
         display: block;
-
-        margin-top: 20px;
-
         transition: 0.5s;
         opacity: 0;
         list-style-type: none;
@@ -930,6 +930,14 @@ footer .container {
 
     .menu-burg {
         opacity: 1;
+    }
+
+    .menu-burg ul li {
+        padding: 10px 0;
+    }
+
+    .menu-burg ul li .authorization{
+        padding-top: 50px;
     }
 
 
